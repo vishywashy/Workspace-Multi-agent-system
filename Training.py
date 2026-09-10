@@ -77,14 +77,8 @@ def train_and_decode(X, y):
 
 
     return model
-np.random.seed(42)
-X,y = np.column_stack([
-    np.random.randint(1, 11, 100),    # Urgency
-    np.random.randint(1, 11, 100),    # Complexity
-    np.random.randint(1, 6, 100),     # Security
-    np.random.randint(100, 5001, 100),# Budget
-    np.random.randint(1, 41, 100)     # Hours
-]),np.random.randint(0, 5, 100)
+
+
 
 #reads csv
 df = pd.read_csv("output.csv")
