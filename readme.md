@@ -43,6 +43,6 @@ pip install -r requirements.txt
 ```
 - These lines of code will get you into the repo. You have to also replace the .env with your secrets to run the code
 
-#Env file instructions
+### Env file instructions
 Follow `.env.example` and enter your credentials and tokens there and rename the file to `.env`
 
